@@ -30,7 +30,7 @@ my $builder = Module::Build->new(
     meta_merge => {
         resources => {
             repository =>
-                'http://github.com/periapt/CGI-Application-Plugin-AJAXUpload/tree',
+                'http://github.com/periapt/CGI-Application-Plugin-AJAXUpload',
         },
         keywords => [ 'CGI::Application', 'File upload', 'Image resizing', 'HTML', 'YUI rich text editor' ],
     },
